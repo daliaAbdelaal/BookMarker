@@ -1,0 +1,48 @@
+.siteBody
+{
+        background-color: #eee;
+        width: 97%;
+}
+#content
+{
+        background-color:#eee;
+        width: 97%;
+
+}
+button a
+{
+        color: #fff;
+}
+button a:hover
+{
+        color: #fff;
+        text-decoration: none;
+}
+.alert-error
+{
+        text-align: center;   
+        background-color: #ffb2b2;
+        color: #6d0000;
+        border: 1px solid #6d0000;
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: bold;
+        margin-top: 5px;
+
+}
+h3
+{
+        color: #AAA;
+        font-weight: 700;
+        border-bottom:  1px solid #999;
+}
+h4
+{
+        font-weight: 700;
+}
+p
+{
+        font-weight: bold;
+        color: #333;
+        font-size: 18px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bookmark</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="w-75 m-auto ">
+                <h3 class="py-5">Bookmarker</h3>
+                <div class="text-center m-auto siteBody">
+                        <h4 class="pt-5">Bookmark your favorite sites</h4>
+                        <div class="form-group py-4 w-75 m-auto">
+                                <p>Site Name</p>
+                                <input type="text" id="name" class=" form-control " placeholder="Bookmark Name">
+                                <div class="alert alert-danger d-none my-2" id="nameAlert">
+                                        Site Name include numbers or characters from 2 digits to 15 digits
+                                </div>
+                                <!-- <div id= "requiredName"></div> -->
+                        </div>
+                        <div class="form-group pb-4 w-75 m-auto">
+                                <p>Site URL</p>
+                                <input type="url" id="url" class=" form-control" placeholder="Website URL">
+                                <div class=" alert alert-danger d-none my-2" id="urlAlert">
+                                        Site URL must end with (.com),include number and charchters from 1
+                                        digit to 10 digits
+                                </div>
+                                <!-- <div id="requiredUrl"></div> -->
+                        </div>
+                        <button id="btn" class=" btn btn-info mb-5">submit</button>
+                </div>
+               
+              
+       
+                <div id="content" class="mt-5 mb-2 mx-auto ">
+
+                </div>
+        </div>
+  
+        <script src="script.js"></script>
+</body>
+</html>
